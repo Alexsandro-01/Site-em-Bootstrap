@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Blog - Bootstrap 4.6</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+     <!-- Style CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container py-3 border-bottom d-md-flex justify-content-between align-items-center">
+            <div class="">
+                <h1 class="cabecalhos text-sm-center">
+                   <a class="logo text-dark" href="">
+                        Planeta News
+                   </a>
+                </h1>
+            </div>
+
+            <div class="">
+                <div class="input-group">
+                    <input class="form-control" type="text">
+                    <div class="input-goup-append">
+                        <button class="btn btn-dark">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    
+                    <button class="btn btn-primary btn-sm mx-3">Inscrever-se</button>
+                    <button class="btn btn-secondary btn-sm">Entrar</button>
+                </div>
+            </div>
+        </div>
+
+
+            <nav class="container navbar navbar-expand-md navbar-light">
+    
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                    <i class="btn btn-secondary fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav w-100 justify-content-between">
+                        <li class="nav-item"> <a class="nav-link" href="">Mundo</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Nós</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Tecnologia</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Projeto</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Cultura</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Negócio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Política</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Opnião</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Ciência</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Saúde</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Ciência</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Saúde</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Estilo</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Viagem</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="container jumbotron py-4 bg-dark text-white">   <!-- Destaque do blog -->
+        <div class="col-md-6">
+            <h1 class="cabecalhos font-italic display-4">
+                Título de uma postagem de blog mais longa
+            </h1>
+            <p class="lead py-3">
+                Este blog fictício foi criado por mim apenas para práticar os conhecimentos
+                que recentemente adquiri em um curso de desenvolvimento web. Os links 
+                não funcionam. Se você perceber alguma aberração no layout/design, por favor, 
+                me avise.
+            </p>
+
+            <p>
+                <a class="font-weight-bold text-white href="">Continue lendo...</a>
+            </p>
+        </div>
+    </section>          <!-- Fim Destaque Blog -->
+
+    <section class="container">               <!-- Início Sub Destaque do blog -->
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-header text-primary">
+                    <strong>Mundo</strong>
+                </div>
+                <img class="card-img" src="https://source.unsplash.com/random/500x251" alt="">
+                <div class="card-body">
+                    <h4 class="title mb-0">Postagem em destaque</h4>
+                    <span class="text-muted">22 de fevereiro de 2021</span>
+                    <p class="card-text mt-2">
+                        A imagem é gerada aleatoriamente toda vez que a página é recarregada,
+                        não se importe com ela.
+                    </p>
+                    <p>
+                        <a href="">Continue lendo</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header text-success">
+                    <strong>Projeto</strong>
+                </div>
+                <img class="card-img" src="https://source.unsplash.com/random/500x250" alt="">
+                <div class="card-body">
+                    <h4 class="title mb-0">Título da postagem</h4>
+                    <span class="text-muted">22 de fevereiro de 2021</span>
+                    <p class="card-text mt-2">
+                        A maioria dos textos são aleatórios. Mas tem algo de interessante na falta de
+                        contexto deles, como se fossem vários pensamentos picotatos de alguém.
+                    </p>
+                    <p>
+                        <a href="">Continue lendo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>              <!-- Fim Sub Destaque do blog -->
+
+    <section class="container mb-5"> <!-- Início área de postagem do blog -->
+        <div class="row d-sm-column">
+
+            <div class="col-md-8 col-sm-12 pr-5">
+                <h3 class="cabecalhos font-italic pb-4 my-3 border-bottom">Da Mangueira de Fogo</h3>
+    
+                <article class="mb-5"> <!-- Início primeira postagem-->
+                <h1 class="cabecalhos mb-0">Amostra de postagem de blog</h1>
+                    <span class="text-muted">23 de fevereiro de 2021 por <a href="">Alexsandro</a> </span>
+                    <p class="mt-3 pb-3 border-bottom">
+                        Esta postagem do blog mostra alguns tipos diferentes de conteúdo que 
+                        são compatíveis e estilizados com o Bootstrap. Tipografia, imagens e 
+                        código básicos são suportados.
+                    </p>
+
+                    <p>
+                        Sim, ela dança em seu próprio ritmo. Ah não. Você poderia ter sido o maior.
+                        Porque, baby,<a href="">você é um fogo de artifício</a> . talvez uma razão 
+                        pela qual todas as portas estão fechadas. Abra seu coração e deixe-o começar.
+                        Então, très chic, sim, ela é um clássico.
+                    </p>
+
+                    <p>
+                        Biquínis, abobrinhas, Martinis, sem salsichas. Eu sei que haverá sacrifício, 
+                        mas esse é o preço.<strong> É assim que fazemos</strong>. Não vou ficar por aqui para ver você 
+                        cair. Você se acha tão rock and roll, mas na verdade é só uma piada. Eu sei que 
+                        uma faísca vai chocar o mundo, sim, sim. Não posso substituí-lo por um milhão de 
+                        anéis.
+                    </p>
+
+                    <p>
+                        Tentando ligar os pontos, não sei o que dizer ao meu chefe. Antes de você me conhecer eu estava 
+                        bem, mas as coisas estavam meio pesadas. Você só precisa acender a luz e deixá-la brilhar. Brilho 
+                        em todo o quarto,<em> flamingos rosa</em> na piscina.
+                    </p>
+
+                <h2 class="cabecalhos">Cabeçalho</h2>
+                    <p>
+                        Preparando-se para minha batalha final. Se você soubesse o que o futuro reserva. Traga o ritmo
+                        de volta. Lábios rosa pêssego, sim, todo mundo fica olhando.
+                    </p>
+
+                <h2 class="cabecalhos">Subtítulo</h2>
+                    <p>
+                        Você dá centenas de motivos e diz que realmente vai tentar. Sim, nós fazemos assim. Chamando 
+                        meu nome. Porque eu, sou capaz de tudo.
+                    </p>
+
+                    <p>
+                        Antes de você me conhecer eu estava bem, mas as coisas estavam meio pesadas. Você só precisa acender
+                        a luz e deixá-la brilhar.
+                    </p>
+                
+                <h2 class="cabecalhos">Subtítulo</h2>
+                    <p>
+                        Você tem a melhor arquitetura. Selos de passaporte, ela e cosmopolita. Tudo bem, fresco, feroz,
+                        nós conseguimos travar. Nunca planejei que um dias estaria perdendo você.
+                        Ela come seu coração.
+                    </p>
+
+                    <ul>
+                        <li>Consegui um motel e construí um forte de lençóis.</li>
+                        <li>Seu beijo é cósmico, cada movimento é mágico. </li>
+                        <li>Preparando-se para a minha batalha final.</li>
+                    </ul>
+
+                    <p>Te leva a quilômetros de altura, muito alto, porque ela tem aquele sorriso internacional.</p>
+
+                    <ol>
+                        <li>Com medo de balaçar o braço e fazer bagunça.</li>
+                        <li>Eu poderia ter reescrito seu vício.</li>
+                        <li>Eu sei que você me entende, então eu deixo minhas paredes caírem.</li>
+                    </ol>
+
+                    <p>Depois de um furacão, vem o arco-íres.</p>
+                </article> <!-- Fim primeira postagem-->
+
+                <article class="mb-5">   <!-- Início segunda postagem-->
+                    
+                    <h1 class="cabecalhos mb-0">Outra postagem do blog</h1>
+                        <span class="text-muted">24 de fevereiro de 2021 por <a href="">Alexsandro</a> </span>
+                        <p class="mt-3 pb-3 border-bottom">
+                            Estou pronto para a estrada menos percorrida. Já<a href=""> limpando a poeira</a>.
+                            Sim, você tem sorte se estiver no avião dela. Eu costumava morder minha 
+                            língua e prender a respiração. Uh, ela é uma besta. Eu a chamo de Karma 
+                            (volte). Black ray-ban, você sabe que ela está com a banda. Eu não consigo 
+                            dormir, vamos fugir e nunca olhe para trás, nunca olhe para trás.
+                        </p>
+
+                        <p>
+                            Crescendo rapidamente em um <strong>raio</strong>. Tenha cuidado, tente não enganá-la.
+                        </p>
+
+                        <p>
+                            Estou intrigado, para dar uma olhada, ouvi dizer que é fascinante. Oh oh! Quer ser uma 
+                            vítima pronta para abdução. Ela tem aquele sorriso internacional, oh sim, ela tem aquele 
+                            sorriso internacional. Você já se sentiu, se sentiu tão fino como um papel. Eu vou colocá-la 
+                            em coma. Pele beijada pelo sol tão quente que derreteremos seu picolé.
+                        </p>
+
+                        <p>
+                            Isso é transcendental, em outro nível, garoto, você é minha estrela da sorte.
+                        </p>
+                </article>  <!-- Início segunda postagem-->
+
+                <article class="mb-5">   <!-- Início terceira postagem-->
+                    
+                    <h1 class="cabecalhos mb-0">Novo recurso</h1>
+                        <span class="text-muted">01 de março de 2021 por <a href="">Alexsandro</a> </span>
+                        <p class="mt-3 pb-3 border-bottom">
+                            De Tóquio ao México, ao Rio. Sim, você me leva para a utopia. Eu estou caminhando no ar. 
+                            Gostaríamos de beijar no seu Mustang para o Radiohead. Quero dizer aqueles, quero dizer 
+                            como se ela fosse a única. Pele beijada pelo sol tão quente que derreteremos seu picolé. 
+                            Panquecas de cozimento lento para o meu filho, ainda acordado, ainda fresco como uma Daisy.
+                        </p>
+
+                        <ul>
+                            <li>Espero que você tenha um apetite saudável.</li>
+                            <li>Você nunca ficará insatisfeito.</li>
+                            <li>O destino do vidro é quebar.</li>
+                        </ul>
+
+                        <p>
+                            Não precisa de desculpas. Rapaz, você é um alienígena com um toque tão estranho, é sobrenatural, 
+                            extraterrestre. Fale sobre nosso futuro como se tivéssemos uma pista. Eu posso sentir uma fênix 
+                            dentro de mim.
+                        </p>
+                     
+                </article>  <!-- Início terceira postagem-->
+
+                <button class="btn btn-outline-primary rounded-pill">Mais antigas</button>
+                <button class="btn btn-outline-secondary rounded-pill disabled">Mais antigas</button>
+                
+            </div>
+    
+            <aside class="col-md-4 col-sm-12"> 
+                <div class="jumbotron py-3 my-4">
+                    <h4 class="cabecalhos font-italic">Sobre</h4>
+                    <p>
+                        Vi você no centro cantando Blues. Observei você circular o ralo. 
+                        Por que você não me deixa passar por aqui? Pesada é a cabeça que 
+                        <em>usa a coroa </em>. Sim, fazemos os anjos chorarem, chovendo na terra 
+                        do alto.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="cabecalhos font-italic">Arquivos</h4>
+
+                        <ul class="list-unstyled">
+                            <li class="py-1"> <a href="">Março 2021</a> </li>
+                            <li class="py-1"> <a href="">Fevereiro 2021</a> </li>
+                            <li class="py-1"> <a href="">Janeiro 2021</a> </li>
+                            <li class="py-1"> <a href="">Dezembro 2020</a> </li>
+                            <li class="py-1"> <a href="">Novembro 2020</a> </li>
+                            <li class="py-1"> <a href="">Outubro 2020</a> </li>
+                            <li class="py-1"> <a href="">Setembro 2020</a> </li>
+                            <li class="py-1"> <a href="">Agosto 2020</a> </li>
+                            <li class="py-1"> <a href="">Julho 2020</a> </li>
+                            <li class="py-1"> <a href="">Junho 2020</a> </li>
+                            <li class="py-1"> <a href="">Maio 2020</a> </li>
+                            <li class="py-1"> <a href="">Abril 2020</a> </li>
+                        </ul>
+                </div>
+
+                <div>
+                    <h4 class="cabecalhos font-italic">Em outro lugar</h4>
+
+                    <div class="icones py-2">
+                        <a class="text-info px-2" href=""><i class="fab fa-github"></i></a>
+                        <a class="text-info px-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="text-info px-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-info px-2" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="text-info px-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </aside>
+        </div>      
+
+    </section>      <!-- Fiim área de postagem do blog -->
+
+    <footer class="py-5 border-top text-center rodape">
+
+        <p>Modelo de blog criado para <a href="">Bootstrap</a> por <a href="">@mdo</a>.</p>
+        <p><a href="index.html">De volta ao topo</a></p>
+
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.cabecalhos {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.rodape {
+    color: #999;
+    background-color: #f9f9f9;
+}
+
+.icones {
+    font-size: 2em;
+}
